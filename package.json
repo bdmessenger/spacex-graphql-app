@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "build": "cd client && npm run build",
     "start": "set NODE_ENV=production && node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
